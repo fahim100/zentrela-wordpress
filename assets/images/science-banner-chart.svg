@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="702px" height="433px" viewBox="0 0 702 433" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 14</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Science" transform="translate(-1044.000000, -295.000000)">
+            <g id="Group-14" transform="translate(1044.000000, 295.000000)">
+                <path d="M124.5,72.2 L682.5,72.2 C689.955844,72.2 696,78.2441559 696,85.7 L696,153.2 L696,153.2 L111,153.2 L111,85.7 C111,78.2441559 117.044156,72.2 124.5,72.2 Z" id="Rectangle-Copy-4" fill="#388F51" fill-rule="nonzero"></path>
+                <rect id="Rectangle-Copy-5" fill="#1A6931" fill-rule="nonzero" x="100.2" y="152.3" width="601.2" height="1"></rect>
+                <rect id="Rectangle-Copy-12" fill="#1A6931" fill-rule="nonzero" x="100.2" y="72.2" width="601.2" height="1"></rect>
+                <rect id="Rectangle-Copy-7" fill="#4CAE69" fill-rule="nonzero" x="111" y="153.2" width="585" height="99"></rect>
+                <rect id="Rectangle-Copy-6" fill="#388F51" fill-rule="nonzero" x="100.2" y="251.3" width="601.2" height="1"></rect>
+                <path d="M111,252.2 L696,252.2 L696,337.7 C696,345.155844 689.955844,351.2 682.5,351.2 L124.5,351.2 C117.044156,351.2 111,345.155844 111,337.7 L111,252.2 L111,252.2 Z" id="Rectangle-Copy-9" fill="#7FD699" fill-rule="nonzero"></path>
+                <text id="100" font-family="TitilliumWeb-Regular, Titillium Web" font-size="13.5" font-weight="normal" line-spacing="22.5" fill="#1E334C">
+                    <tspan x="62.4" y="78.2">100</tspan>
+                </text>
+                <text id="80" font-family="TitilliumWeb-Regular, Titillium Web" font-size="13.5" font-weight="normal" line-spacing="22.5" fill="#1E334C">
+                    <tspan x="62.4" y="156.5">80</tspan>
+                </text>
+                <text id="60" font-family="TitilliumWeb-Regular, Titillium Web" font-size="13.5" font-weight="normal" line-spacing="22.5" fill="#1E334C">
+                    <tspan x="62.4" y="202.4">60</tspan>
+                </text>
+                <text id="40" font-family="TitilliumWeb-Regular, Titillium Web" font-size="13.5" font-weight="normal" line-spacing="22.5" fill="#1E334C">
+                    <tspan x="62.4" y="251">40</tspan>
+                </text>
+                <text id="20" font-family="TitilliumWeb-Regular, Titillium Web" font-size="13.5" font-weight="normal" line-spacing="22.5" fill="#1E334C">
+                    <tspan x="62.4" y="300.5">20</tspan>
+                </text>
+                <text id="0" font-family="TitilliumWeb-Regular, Titillium Web" font-size="13.5" font-weight="normal" line-spacing="22.5" fill="#1E334C">
+                    <tspan x="62.4" y="348.2">0</tspan>
+                </text>
+                <text id="15" font-family="TitilliumWeb-Regular, Titillium Web" font-size="13.5" font-weight="normal" line-spacing="22.5" fill="#1E334C">
+                    <tspan x="175.89" y="371.6">15</tspan>
+                </text>
+                <text id="60" font-family="TitilliumWeb-Regular, Titillium Web" font-size="13.5" font-weight="normal" line-spacing="22.5" fill="#1E334C">
+                    <tspan x="297.39" y="370.7">60</tspan>
+                </text>
+                <text id="120" font-family="TitilliumWeb-Regular, Titillium Web" font-size="13.5" font-weight="normal" line-spacing="22.5" fill="#1E334C">
+                    <tspan x="416.91" y="370.7">120</tspan>
+                </text>
+                <text id="240" font-family="TitilliumWeb-Regular, Titillium Web" font-size="13.5" font-weight="normal" line-spacing="22.5" fill="#1E334C">
+                    <tspan x="540.21" y="370.7">240</tspan>
+                </text>
+                <text id="300" font-family="TitilliumWeb-Regular, Titillium Web" font-size="13.5" font-weight="normal" line-spacing="22.5" fill="#1E334C">
+                    <tspan x="663.51" y="370.7">300</tspan>
+                </text>
+                <text id="THC-effect-analysis" font-family="TitilliumWeb-Bold, Titillium Web" font-size="40.5" font-weight="bold" line-spacing="45" fill="#1E334C">
+                    <tspan x="224.7915" y="39.0830643">THC effect analysis</tspan>
+                </text>
+                <text id="Time-(mins)-after-co" font-family="TitilliumWeb-SemiBold, Titillium Web" font-size="22.5" font-weight="500" line-spacing="45" fill="#1E334C">
+                    <tspan x="253.6275" y="412.2">Time (mins) after consumption</tspan>
+                </text>
+                <text id="Mellow" opacity="0.800711496" font-family="TitilliumWeb-SemiBold, Titillium Web" font-size="22.5" font-weight="500" line-spacing="45" fill="#FFFFFF">
+                    <tspan x="365.745" y="304.2">Mellow</tspan>
+                </text>
+                <text id="Medium" opacity="0.801920573" font-family="TitilliumWeb-SemiBold, Titillium Web" font-size="22.5" font-weight="500" line-spacing="45" fill="#FFFFFF">
+                    <tspan x="364.4175" y="207">Medium</tspan>
+                </text>
+                <text id="Intense" opacity="0.803920201" font-family="TitilliumWeb-SemiBold, Titillium Web" font-size="22.5" font-weight="500" line-spacing="45" fill="#FFFFFF">
+                    <tspan x="367.455" y="115.2">Intense</tspan>
+                </text>
+                <text id="Cannabis-effect-leve" transform="translate(23.250000, 202.700000) rotate(-90.000000) translate(-23.250000, -202.700000) " font-family="TitilliumWeb-SemiBold, Titillium Web" font-size="22.5" font-weight="500" line-spacing="45" fill="#1E334C">
+                    <tspan x="-98.7" y="205.2">Cannabis effect level (%)</tspan>
+                </text>
+                <polyline id="Path-2" stroke="#1A6931" stroke-width="2.7" points="130.8 350.3 183.845722 317 218.169425 251.3 251.713043 203.6 306.318934 152.3 353.904067 131.6 408.509958 131.6 458.435344 170.3 495.879383 195.5 569.987377 220.7 613.67209 285.5 687 342.2"></polyline>
+                <ellipse id="Oval" fill="#1A6931" cx="130.8" cy="349.85" rx="3.6" ry="4.05"></ellipse>
+                <ellipse id="Oval-Copy" fill="#1A6931" cx="183" cy="317.45" rx="3.6" ry="4.05"></ellipse>
+                <ellipse id="Oval-Copy-2" fill="#1A6931" cx="217.2" cy="251.75" rx="3.6" ry="4.05"></ellipse>
+                <ellipse id="Oval-Copy-3" fill="#1A6931" cx="251.4" cy="204.05" rx="3.6" ry="4.05"></ellipse>
+                <ellipse id="Oval-Copy-4" fill="#1A6931" cx="304.5" cy="152.75" rx="3.6" ry="4.05"></ellipse>
+                <ellipse id="Oval-Copy-5" fill="#1A6931" cx="351.3" cy="132.05" rx="3.6" ry="4.05"></ellipse>
+                <ellipse id="Oval-Copy-6" fill="#1A6931" cx="408.9" cy="132.05" rx="3.6" ry="4.05"></ellipse>
+                <ellipse id="Oval-Copy-7" fill="#1A6931" cx="457.5" cy="169.85" rx="3.6" ry="4.05"></ellipse>
+                <ellipse id="Oval-Copy-8" fill="#1A6931" cx="495.3" cy="195.95" rx="3.6" ry="4.05"></ellipse>
+                <ellipse id="Oval-Copy-9" fill="#1A6931" cx="570" cy="220.25" rx="3.6" ry="4.05"></ellipse>
+                <ellipse id="Oval-Copy-10" fill="#1A6931" cx="613.2" cy="285.05" rx="3.6" ry="4.05"></ellipse>
+                <ellipse id="Oval-Copy-11" fill="#1A6931" cx="685.2" cy="340.85" rx="3.6" ry="4.05"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
