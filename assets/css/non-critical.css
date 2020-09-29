@@ -7761,9 +7761,14 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
 
 .contact-banner {
   text-align: center;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .contact-banner h2 {
+  color: #fff;
+}
+.contact-banner p {
   color: #fff;
 }
 
@@ -7949,8 +7954,10 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
 
 .single-blog-wrapper img {
   width: 100%;
-  height: 100%;
-  min-width: 350px;
+  height: 400px;
+  object-fit: cover;
+  -o-object-fit: cover;
+  /* min-width: 350px; */
   border-radius: 20px;
   margin-bottom: 30px;
 }

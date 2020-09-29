@@ -62,3 +62,8 @@ function zentrela_add_class( $classes, $item, $args ) {
 }
 add_filter( "nav_menu_css_class", "zentrela_add_class", 1, 3 );
 
+// remove_filter ('acf_the_content', 'wpautop');
+// function my_acf_add_local_field_groups() {
+//     remove_filter('acf_the_content', 'wpautop' );
+// }
+// add_action('acf/init', 'my_acf_add_local_field_groups');

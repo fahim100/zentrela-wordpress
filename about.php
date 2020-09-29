@@ -24,7 +24,7 @@ $choose_team_type = get_field( 'choose_team_type' );
 					<h1><?php echo esc_html( $about_banner_title ); ?></h1>
 				<?php } ?>
 				<?php if( $about_banner_description ) { ?>
-					<h1><?php echo $about_banner_description; ?></h1>
+					<?php echo $about_banner_description; ?>
 				<?php } ?>
 			</div>
 			<?php if( !empty( $about_banner_background ) ) { ?>
