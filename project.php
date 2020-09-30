@@ -155,7 +155,7 @@ $product_button_url = get_field( 'product_button_url' );
 		</div>
 		<?php if( $product_button ){ ?>
 			<div class="magnetic">
-				<a href="<?php echo esc_attr( $product_button_url ); ?>" class="button">
+				<a href="<?php echo esc_attr( $product_button_url ); ?>" class="button embaded-google-form">
 					<span class="button-area">
 						<span data-text="<?php echo esc_html( $product_button ); ?>"><?php echo esc_html( $product_button ); ?></span>
 					</span>

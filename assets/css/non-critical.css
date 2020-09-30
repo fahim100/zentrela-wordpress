@@ -5732,8 +5732,8 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
 }
 
 .team.leadership .team-wrapper .team-grid-item-image, .team.business .team-wrapper .team-grid-item-image {
-  max-height: 350px;
-  height: 100%;
+  /* max-height: 350px; */
+  height: 350px;
   width: 100%;
   overflow: hidden;
   border-radius: 20px;
@@ -6540,7 +6540,7 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
   margin: 0 100px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
   .about-client-wrapper {
     margin: 0;
   }
@@ -8018,4 +8018,39 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
           transform: translateY(-50%) translateX(-15px);
 }
 
+.view-email{
+  padding: 220px 0;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.view-email-wrapper{
+  width: 70%;
+  margin: 0 auto;
+}
+.view-email-wrapper table{
+  width: 100%;
+  border: 1px solid #E0E2E9;
+  text-align: left;
+  display: table;
+  border-spacing: 0;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.view-email-wrapper table th {
+  background: #1e334c;
+  color: #fff;
+}
+.view-email-wrapper table td, .view-email-wrapper table th {
+  padding: 25px 30px;
+}
+.view-email-wrapper table td:not(:last-child) {
+  border-right: 1px solid #e0e2e9;
+}
+.view-email-wrapper table td {
+  border-bottom: 1px solid #e0e2e9;
+  background: #fff;
+}
+.participent-wrapper{
+  text-align: center;
+}
 /*# sourceMappingURL=maps/non-critical.css.map */
