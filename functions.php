@@ -25,7 +25,7 @@ add_action( "after_setup_theme", "zentrela_load_assets" );
 
 function zentrela_assets(){
 
-    wp_enqueue_style( 'sweetalert-css', get_template_directory_uri() . '/assets/plugins/sweet-alert/sweetalert2.min.css' );
+    // wp_enqueue_style( 'sweetalert-css', get_template_directory_uri() . '/assets/plugins/sweet-alert/sweetalert2.min.css' );
     wp_enqueue_style( 'critical-css', get_template_directory_uri() . '/assets/css/critical.css' );
     wp_enqueue_style( 'non-critical-css', get_template_directory_uri() . '/assets/css/non-critical.css' );
     // main css
@@ -37,7 +37,7 @@ function zentrela_assets(){
     wp_enqueue_script( "tweenmax-js", get_template_directory_uri() . "/assets/plugins/tweenmax/TweenMax.min.js", array( 'jquery' ), VERSION, true );
     wp_enqueue_script( "particles-js", get_template_directory_uri() . "/assets/plugins/particles/particles.min.js", array( 'jquery' ), VERSION, true );
     wp_enqueue_script( "slick-js", get_template_directory_uri() . "/assets/plugins/slick/slick.min.js", array( 'jquery' ), VERSION, true );
-    wp_enqueue_script( 'sweetalert-js', get_template_directory_uri() . '/assets/plugins/sweet-alert/sweetalert2.min.js', array( 'jquery' ), VERSION, true );
+    // wp_enqueue_script( 'sweetalert-js', get_template_directory_uri() . '/assets/plugins/sweet-alert/sweetalert2.min.js', array( 'jquery' ), VERSION, true );
     wp_enqueue_script( "main-js", get_template_directory_uri() . "/assets/js/script.js", array( 'jquery' ), VERSION, true );
 }
 

@@ -27,6 +27,11 @@
 	$team_description = get_field( 'team_description' );
 	$team_button = get_field( 'team_button' );
 	$team_button_url = get_field( 'team_button_url' );
+	$operational_title = get_field( 'operational_title' );
+	$operational_description = get_field( 'operational_description' );
+	$operational_button = get_field( 'operational_button' );
+	$operational_button_url = get_field( 'operational_button_url' );
+	$operational_left_image = get_field( 'operational_left_image' );
 ?>
   	<section class="hero" style="background-image: url(<?php echo $hero_background; ?>)">
 		<div class="container">
@@ -58,18 +63,17 @@
 <section class="operational">
   	<div class="container">
 		<div class="section-title">
-			<h2>How high is too high ?</h2>
-			<p>
-				lack of trust on cannabis products is one of the main barriers that
-				prevents intenders, <a href="#">no-frequent consumers</a> or
-				<a href="#">inexperienced users</a> to consume and adopt them. For
-				example: cannabis beverages.
-			</p>
+			<?php if( $operational_title ){ ?>
+				<h2><?php echo $operational_title; ?></h2>
+			<?php } ?>
+			<?php if( $operational_description ){ ?>
+				<?php echo $operational_description; ?>
+			<?php } ?>
 		</div>
 		<div class="operational-content">
 			<div class="operational-content-main">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/operational/center.png" alt="center-image" />
-				<div class="operational-content-obj">
+				<div class="operational-content-obj desktop">
 					<img
 						src="<?php echo get_template_directory_uri(); ?>/assets/images/operational/arrow-one.svg"
 						class="arrow-one"
@@ -125,24 +129,31 @@
 						data-aos-delay="1900"
 					/>
 				</div>
-				<img
-				src="<?php echo get_template_directory_uri(); ?>/assets/images/operational/left.png"
-				class="left-image"
-				alt="left-image"
-				data-aos="fade-right"
-				data-aos-once="true"
-				data-aos-duration="800"
-				/>
+				<div class="operational-content-obj mobile">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/operational/mobile-op.svg" alt="mobile-op">
+				</div>
+				<?php if( !empty( $operational_left_image ) ){ ?>
+					<img
+					src="<?php echo esc_url( $operational_left_image['url'] ); ?>"
+					class="left-image"
+					alt="<?php echo esc_attr( $operational_left_image['alt'] ); ?>"
+					data-aos="fade-right"
+					data-aos-once="true"
+					data-aos-duration="800"
+					/>
+				<?php } ?>
 			</div>
 			<div class="operational-content-bg">
 			<div id="particles-white"></div>
-				<div class="magnetic">
-					<a href="#" class="button">
-						<span class="button-area">
-							<span data-text="See This Science">See This Science</span>
-						</span>
-					</a>
-				</div>
+				<?php if( !empty( $operational_button ) ) { ?>
+					<div class="magnetic">
+						<a href="<?php echo esc_url( $operational_button_url ); ?>" class="button">
+							<span class="button-area">
+								<span data-text="<?php echo esc_attr( $operational_button ); ?>"><?php echo esc_html( $operational_button ); ?></span>
+							</span>
+						</a>
+					</div>
+				<?php } ?>
 			</div>
 		</div>
   	</div>

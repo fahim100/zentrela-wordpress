@@ -77,7 +77,7 @@ $product_button_url = get_field( 'product_button_url' );
 
 <section class="project-product">
     <div class="container">
-        <div class="project-product-wrapper">
+        <div class="project-product-wrapper desktop">
             <div class="product-heading">
                 <div class="product">
 					<?php if( $product_heading_product ){ ?>
@@ -153,6 +153,94 @@ $product_button_url = get_field( 'product_button_url' );
 				<?php endif; ?>
             </div>
 		</div>
+		<div class="project-product-wrapper mobile">
+		<?php if( have_rows( 'product_item' ) ): ?>
+			<?php while( have_rows( 'product_item' ) ) : the_row(); ?>
+			<?php
+				$product_item_image = get_sub_field( 'product_item_image' );
+				$product_item_name = get_sub_field( 'product_item_name' );
+				$product_item_method = get_sub_field( 'product_item_method' );
+				$product_item_profile = get_sub_field( 'product_item_profile' );
+			?>
+				<div class="product-item">
+					<div class="product-heading">
+						<div class="product">
+							<?php if( $product_heading_product ){ ?>
+								<span><?php echo $product_heading_product; ?></span>
+							<?php } ?>
+						</div>
+					</div>
+					<div class="project-product-wrapper-item">
+						<div class="product">
+							<?php if( !empty( $product_item_image ) ){ ?>
+								<img src="<?php echo esc_url( $product_item_image['url'] ); ?>" alt="<?php echo esc_attr( $product_item_image['alt'] ); ?>">
+							<?php } ?>
+							<?php if( $product_item_name ){ ?>
+								<span><?php echo esc_html( $product_item_name ); ?></span>
+							<?php } ?>
+						</div>
+					</div>
+					<div class="product-heading">
+						<div class="consumtion">
+							<?php if( $product_heading_method ){ ?>
+								<span><?php echo $product_heading_method; ?></span>
+							<?php } ?>
+						</div>
+					</div>
+					<div class="project-product-wrapper-item">
+						<div class="consumtion">
+							<?php if( $product_item_method ){ ?>
+								<span><?php echo esc_html( $product_item_method ); ?></span>
+							<?php } ?>
+						</div>
+					</div>
+					<div class="product-heading">
+						<div class="consumer">
+							<?php if( $product_heading_profile ){ ?>
+								<span><?php echo $product_heading_profile; ?></span>
+							<?php } ?>
+						</div>
+					</div>
+					<div class="project-product-wrapper-item">
+						<div class="consumer">
+							<?php if( $product_item_profile ){ ?>
+								<span><?php echo esc_html( $product_item_profile ); ?></span>
+							<?php } ?>
+						</div>
+					</div>
+					<div class="product-heading">
+						<div class="effects">
+							<?php if( $product_heading_effect ){ ?>
+								<span><?php echo $product_heading_effect; ?></span>
+							<?php } ?>
+						</div>
+					</div>
+					<div class="project-product-wrapper-item">
+						<div class="effects">
+							<ul>
+							<?php if( have_rows( 'product_item_effect' ) ): ?>
+								<?php while( have_rows( 'product_item_effect' ) ) : the_row(); ?>
+								<?php
+								$product_item_effect_thc_effect = get_sub_field( 'product_item_effect_thc_effect' );
+								$product_item_effect_thc_effect_name = get_sub_field( 'product_item_effect_thc_effect_name' );
+								?>
+									<li>
+										<?php if( $product_item_effect_thc_effect ){ ?>
+											<span><?php echo esc_html( $product_item_effect_thc_effect ); ?>:</span>
+										<?php } ?>
+										<?php if( $product_item_effect_thc_effect_name ){ ?>
+											<span><?php echo esc_html( $product_item_effect_thc_effect_name ); ?></span>
+										<?php } ?>
+									</li>
+								<?php endwhile; ?>
+							<?php endif; ?>
+							</ul>
+						</div>
+					</div>
+				</div>
+			<?php endwhile; ?>
+		<?php endif; ?>
+        </div>
 		<?php if( $product_button ){ ?>
 			<div class="magnetic">
 				<a href="<?php echo esc_attr( $product_button_url ); ?>" class="button embaded-google-form">
