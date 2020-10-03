@@ -22,13 +22,8 @@
                 ?>
             </div>
             <div class="footer-widget subscription">
-                <h4>Subscribe</h4>
-                <form method="post" action="">
-                    <input type="email" class="email" name="email" placeholder="Your Email" required >
-                  
-                    <input class="button" type="submit" name="submit" value="Submit">
-                </form>
-            </div>
+                <h4>Subscribe</h4>				<div class="alert alert-success" style="display:none;color:aqua" role="alert">				  Data successfully stored !				</div>				<form method="post" id="sform" action="https://zentrela.devscred.com/wp-admin/admin-ajax.php?action=submitSubscriber">					<input type="email" class="email" required name="email" placeholder="Your Email" required >					<input class="button" type="submit" name="submit" value="Submit">				</form>
+            </div>			
             <div class="footer-widget contact-info">
                 <?php
                     if ( is_active_sidebar( "footer_contact_info" ) ) {
@@ -45,6 +40,6 @@
 </footer>
 </main>
 
-    <?php wp_footer(); ?>
+    <?php wp_footer(); ?>		<script>		jQuery('#sform').submit(function() {			jQuery('input[name="submit"]').val('Processing..');			jQuery.ajax({ 				data: jQuery(this).serialize(), 				type: jQuery(this).attr('method'),				url: jQuery(this).attr('action'),				success: function() {					jQuery('input[name="submit"]').val('Submit');					jQuery(".alert-success").show();				}			});			return false; 		});	</script>
   </body>
 </html>

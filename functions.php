@@ -1,5 +1,5 @@
 <?php 
-
+require 'subscribertable.php';
 if( site_url("http://localhost/zentrela") ){
     define( "VERSION", time() );
 } else {
@@ -75,4 +75,4 @@ function zentrela_widgets() {
     ) );
 }
 add_action( 'widgets_init', 'zentrela_widgets' );
-
+function submitSubscriber(){	global $wpdb;	$newdata = array('email'=>$_POST['email']);	$wpdb->insert('wp0m_subscriber',$newdata);}add_action( 'wp_ajax_nopriv_submitSubscriber', 'submitSubscriber' );

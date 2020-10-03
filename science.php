@@ -171,7 +171,7 @@ $science_feature_title = get_field( 'science_feature_title' );
 				<?php } ?>
 				<div class="science-feature-item-content">
 					<?php 
-                    	the_content();
+						echo force_balance_tags( html_entity_decode( wp_trim_words( htmlentities( wpautop(get_the_content()) ), 70, '...' ) ) );
                     ?>
 					<div class="magnetic">
 						<a href="<?php echo get_permalink(); ?>" class="button">
